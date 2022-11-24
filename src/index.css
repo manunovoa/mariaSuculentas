@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;500&family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #E5D9B6;
+  }
+
+header{
+    width: 100%;
+    height: 15%;
+    background-color: #A9AF7E;
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.logo{
+    width: 8%;
+    margin-left: 1%;
+}
+
+main{
+    margin-top: 20px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    gap: 2%;
+}
+
+.informacion{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.formularios{
+display: flex;
+gap: 5px;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form_item{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #A9AF7E;
+}
+
+.form_item2{
+    width: 300px;
+    height: 95px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #A9AF7E;
+}
+
+input::placeholder{
+    color: black;
+}
+
+.boton{
+    width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #7D8F69;
+  border: #7D8F69 1px solid;
+  cursor: pointer;
+  color: black;
+  transition:  0.3s ease-in-out all;
+  margin-top: 5px;
+}
+
+.boton:hover{
+    border-radius: 5px;
+    background-color: #7D8F69;
+  color: black;
+  transition:  0.3s ease-in-out all;
+}
+
+
+main section h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.galeria{
+    width: 35%;
+    margin-right: 10px;
+    background-color: #A9AF7E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    
+}
+
+main article h1{
+    text-align: left;
+}
+
+
+.galeriaImagen{
+    width: 400px;
+    height: 200px;
+    margin: 5px;
+
+}
