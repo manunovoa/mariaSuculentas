@@ -3,28 +3,27 @@ const Footer = () => {
     <section className="footer-basic">
       <footer>
         <section className="social">
-          <a href="#">
-            <i className="icon ion-social-instagram"></i>
-          </a>
-          <a href="#">
-            <i className="icon ion-social-snapchat"></i>
-          </a>
-          <a href="#">
-            <i className="icon ion-social-twitter"></i>
-          </a>
-          <a href="#">
-            <i className="icon ion-social-facebook"></i>
-          </a>
+          <img className="a" src="../../../public/instagram.png" alt="" />
+          <img className="a" src="../../../public/snapchat.png" alt="" />
+          <img className="a" src="../../../public/facebook.png" alt="" />
+          <img className="a" src="../../../public/twitter.png" alt="" />
         </section>
+
         <ul className="list-inline">
           <li className="list-inline-item">
-            <a href="#">Home</a>
+            <a className="link" href="#">
+              Home
+            </a>
           </li>
           <li className="list-inline-item">
-            <a href="#">Services</a>
+            <a className="link" href="#">
+              Services
+            </a>
           </li>
           <li className="list-inline-item">
-            <a href="#">About</a>
+            <a className="link" href="#">
+              About
+            </a>
           </li>
         </ul>
         <p className="copyright">Maria Suculentas © 2022</p>
